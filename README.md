@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.postimg.cc/yYNGSk3p/Tracker.png" alt="Realtime Device Track" />
+  <img src="https://i.postimg.cc/J76vRdbv/Tracker.png" alt="Realtime Device Track" />
 </p>
 
 <h1 align="center">Realtime Device Track</h1>
