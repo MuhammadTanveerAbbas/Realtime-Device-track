@@ -46,3 +46,24 @@ npm install
 # 3. Configure & Launch
 # ➤ Edit config.js with server-specific settings
 npm start
+````
+
+> **Frontend Integration**:
+> Connect a Socket.io client to receive `locationUpdate` events and render the coordinates using Leaflet.js in your UI.
+
+---
+
+## 📋 API Endpoints
+
+| Method | Endpoint               | Description                          |
+| ------ | ---------------------- | ------------------------------------ |
+| POST   | `/api/device/register` | Register a new device (ID, metadata) |
+| POST   | `/api/device/track`    | Emit real-time geo-coordinates       |
+| GET    | `/api/device/:id`      | Retrieve last known location         |
+
+---
+
+## Licensing
+
+* **License**: MIT
+---
