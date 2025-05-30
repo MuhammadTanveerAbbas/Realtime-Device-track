@@ -14,24 +14,23 @@
 
 ## 🛰️ Overview
 
-**Realtime Device Track** is a robust backend solution for **real-time GPS tracking** and geolocation broadcasting. Built with **Node.js**, **Express**, and **Socket.io**, it delivers ultra-low-latency **WebSocket-based** location updates. The system is designed for scalability, maintainability, and seamless integration with frontend libraries like **Leaflet.js**.
+**Realtime Device Track** is an enterprise-grade backend for **real-time GPS tracking** and geolocation broadcasting. Leveraging **Node.js**, **Express**, and **Socket.io**, it delivers ultra-low-latency WebSocket streams for location updates. Designed for high scalability, maintainability, and seamless integration with mapping libraries like **Leaflet.js**.
 
 ---
 
 ## 📌 Core Features
 
-- 🔄 **Live GPS Data Streaming** via Socket.io
-- 🗺️ **Interactive Mapping Support** (Leaflet.js-compatible)
-- 🧭 **RESTful APIs** for device registration and tracking
-- ⚡ **High-Performance, Scalable Architecture**
-- 🧩 **Modular Codebase** tailored for enterprise-grade extensions
+- 🔄 **Live GPS Data Streaming** via Socket.io  
+- 🗺️ **Interactive Mapping Support** (Leaflet.js-compatible)  
+- 🧭 **RESTful APIs** for device registration and tracking  
+- ⚡ **High-Performance, Scalable Architecture**  
+- 🧩 **Modular Codebase** for enterprise-grade extensions  
 
 ---
 
 ## 🛠️ Technology Stack & SEO Keywords
 
-**Node.js** · **Express.js** · **Socket.io** · **Leaflet.js** · **JavaScript**
-
+**Node.js** · **Express.js** · **Socket.io** · **Leaflet.js** · **JavaScript**  
 **Real-Time GPS Tracking** · **WebSocket Backend** · **Geolocation Services** · **Live Map Integration** · **IoT Location Streaming**
 
 ---
@@ -52,11 +51,11 @@ npm start
 ````
 
 > **Frontend Integration Tip:**
-> Use a Socket.io client to listen for `locationUpdate` events and render real-time coordinates on a Leaflet map interface.
+> Use a Socket.io client to listen for `locationUpdate` events and render real-time coordinates on a Leaflet map.
 
 ---
 
-## 📡 API Documentation
+## 📡 API Endpoints
 
 | Method | Endpoint               | Description                       |
 | ------ | ---------------------- | --------------------------------- |
