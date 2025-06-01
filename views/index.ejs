@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="data:," />
+    <title>Realtime Device Tracker</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+    <header class="header glass-medium">
+        <div class="header__left">
+            <span class="brand">StreetMap</span>
+            <span class="byline">Tracker</span>
+        </div>
+        <div class="header__right">
+            <span id="status-indicator" class="status--disconnected">● Disconnected</span>
+        </div>
+    </header>
+    <div id="globe-container">
+        <div id="map" aria-label="Real-time device tracker map"></div>
+    </div>
+    <footer class="footer glass-medium">
+        <span><i class="fas fa-map-marker-alt"></i> © <%= new Date().getFullYear() %> StreetMap. All Rights
+                Reserved.</span>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+    <script src="/js/script.js" defer></script>
+</body>
+
+</html>
