@@ -14,7 +14,7 @@
 
 ## 🛰️ Overview
 
-**Realtime Device Track** is an enterprise-grade backend for **real-time GPS tracking** and geolocation broadcasting. Leveraging **Node.js**, **Express**, and **Socket.io**, it delivers ultra-low-latency WebSocket streams for location updates. Designed for high scalability, maintainability, and seamless integration with mapping libraries like **Leaflet.js**.
+**Realtime Device Track** is an enterprise-grade backend solution for real-time GPS tracking and geolocation broadcasting. By leveraging **Node.js**, **Express**, and **Socket.io**, this application delivers ultra-low-latency WebSocket streams for location updates. It is designed for high scalability, maintainability, and seamless integration with mapping libraries such as **Leaflet.js**.
 
 ---
 
@@ -28,11 +28,6 @@
 
 ---
 
-## 🛠️ Technology Stack & SEO Keywords
-
-**Node.js** · **Express.js** · **Socket.io** · **Leaflet.js** · **JavaScript**  
-**Real-Time GPS Tracking** · **WebSocket Backend** · **Geolocation Services** · **Live Map Integration** · **IoT Location Streaming**
-
 ---
 
 ## 🚀 Getting Started
@@ -45,9 +40,8 @@ cd Realtime-Device-track
 # 2. Install dependencies
 npm install
 
-# 3. Configure and launch
-# ➤ Update config.js with your environment-specific settings
-npm start
+# 3. Launch the application
+npx nodemon
 ````
 
 > **Frontend Integration Tip:**
@@ -63,8 +57,7 @@ npm start
 | POST   | `/api/device/track`    | Submit real-time location updates |
 | GET    | `/api/device/:id`      | Retrieve the last known location  |
 
----
 
-## 📃 License
+## 📝 License
 
 This project is licensed under the **MIT License**.
