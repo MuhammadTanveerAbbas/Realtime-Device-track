@@ -10,8 +10,6 @@
   <img src="https://img.shields.io/badge/Socket.io-010101?logo=socketdotio&logoColor=white&style=for-the-badge" height="30" alt="Socket.io" />
 </p>
 
----
-
 ## 🛰️ Overview
 
 **Realtime Device Track** is an enterprise-grade backend solution for real-time GPS tracking and geolocation broadcasting. By leveraging **Node.js**, **Express**, and **Socket.io**, this application delivers ultra-low-latency WebSocket streams for location updates. It is designed for high scalability, maintainability, and seamless integration with mapping libraries such as **Leaflet.js**.
@@ -25,8 +23,6 @@
 - 🧭 **RESTful APIs** for device registration and tracking  
 - ⚡ **High-Performance, Scalable Architecture**  
 - 🧩 **Modular Codebase** for enterprise-grade extensions  
-
----
 
 ---
 
